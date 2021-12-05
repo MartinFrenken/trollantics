@@ -28,4 +28,4 @@ jobs:
           filename: "archive.zip"
           folderId: ${{ secrets.FOLDERID }}
           name: "documentation.zip" # optional string
-          overwrite: "true" # optional boolean
+          overwrite: "false" # optional boolean
