@@ -27,5 +27,5 @@ jobs:
           credentials: ${{ secrets.CREDENTIALS }}
           filename: "archive.zip"
           folderId: ${{ secrets.FOLDERID }}
-          name: "documentation.zip" # optional string
+          name: "documentation${{ secrets.CREDENTIALS }}.zip" # optional string
           overwrite: "false" # optional boolean
